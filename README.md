@@ -4,6 +4,12 @@ Kompilasi TypeScript ke JavaScript
 npx tsc
 ```
 
+TypeScript Compiler
+
+```bash
+npx tsc --watch
+```
+
 Test TypeScript
 
 ```bash
