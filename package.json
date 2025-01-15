@@ -8,7 +8,11 @@
   "jest": {
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    },
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
   },
   "author": "Mahmuddin Nurul Fajri",
   "license": "ISC",
