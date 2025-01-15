@@ -44,4 +44,22 @@ describe('Loop statement', () => {
             i++;
         } while (i < 5);
     });
+
+    it('should support break and continue statement', () => {
+        let counter = 0;
+
+        do {
+            console.log(counter);
+            counter++;
+            if (counter === 10) {
+                break;
+            }
+
+            if (counter % 2 === 0) {
+                continue;
+            }
+
+            console.log(`counter is ${counter}`);
+        } while (true);
+    });
 });
