@@ -1,4 +1,4 @@
-import { Seller } from "../src/0004-seller"
+import { Seller } from "../src/0004-seller";
 import { Employee, Manager } from "../src/0005-employee";
 import { Person } from "../src/0006-person";
 
